@@ -1,14 +1,14 @@
 print("Hello world")
 print("This is STT for CSE lab 1")
 
-num1 = 10
-num2 = 14
-num3 = 12
+NUM_1= 10
+NUM_2= 14
+NUM_3= 12
 
 def greatest_num(a,b,c):
     if a >= b and a >= c:
         return a
-    elif b >= a and b >= c:
+    if b >= a and b >= c:
         return b
     else:
         return c
@@ -16,16 +16,16 @@ def greatest_num(a,b,c):
 def smallest_num(a,b,c):
     if a <= b and a <= c:
         return a
-    elif b <= a and b <= c:
+    if b <= a and b <= c:
         return c
     else:
         return c
 
-#Now we have defined 2 functions which will return the greatest and smallest values amongst 3 numbers
+#Now we have defined 2 functions which will return the greatest and smallest    
 #They take int inputs and return int outputs
 
-largest= greatest(num1,num2,num3)
-smallest=smallest_num(num1,num2,num3)
+largest= greatest_num(NUM_1,NUM_2,NUM_3)
+smallest=smallest_num(NUM_1,NUM_2,NUM_3)
 
 print("greatest number here is ", largest)
 print("smallest number here is ", smallest)

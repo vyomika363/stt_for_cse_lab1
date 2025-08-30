@@ -6,20 +6,20 @@ num2 = 14
 num3 = 12
 
 def greatest_num(a,b,c):
-  if a >= b and a >= c:
-    return a
-  elif b >= a and b >= c:
-    return b
-  else:
-    return c
+    if a >= b and a >= c:
+        return a
+    elif b >= a and b >= c:
+        return b
+    else:
+        return c
 
 def smallest_num(a,b,c):
-  if a <= b and a <= c:
-    return a
-  elif b <= a and b <= c:
-    return c
-  else:
-    return c
+    if a <= b and a <= c:
+        return a
+    elif b <= a and b <= c:
+        return c
+    else:
+        return c
 
 #Now we have defined 2 functions which will return the greatest and smallest values amongst 3 numbers
 #They take int inputs and return int outputs
